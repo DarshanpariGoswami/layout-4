@@ -24,19 +24,29 @@
 {
     position: relative;
 }
-#officeimg
-{
-    width: 100%;
+#middlediv
+{background-image:url("C:/internship/ofiicemeeting.jpg");
+    width: 100px;
     height: auto;
     }
 #bluebox
 {
-    width: 850px;
+    
     height: 251px;
-    background-color:lightskyblue;
-    opacity: 0.5;
+    background-color:blue;
+    opacity: 0.6;
+    color: white;
 
 } 
+#buisness
+{
+    color: white;
+    opacity: 0.5;   
+    font-size: 100px;
+}
+#h1tag{
+font-size: 90px;
+}
 #redbox
 {
     height: 251px;
@@ -55,28 +65,25 @@ width: 500px;
     background-color: black;
     opacity: 0.5;
 }
-.trasdiv
+/*.trasdiv
 {
     position: relative;
     bottom: 755px;
-}
+}*/
 @media only screen and (min-width: 768px)
 {
     .col-sm-3
     {
         height: 200px;        
     }
-    #plus
-    {
-    
-    }
 
 }
 @media only screen and (min-width: 320px)
 {
-#plus
-{
-        right: 38px;
-        top: 46px;
-}
+        #plus
+        {
+                right: 38px;
+                top: 46px;
+        }
+        
 }
