@@ -1,0 +1,82 @@
+.col-sm-3
+{
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+    color: maroon;
+    opacity: 0.5;
+     height: 200px;
+}
+.col-sm-6
+{
+    padding: 2px;
+    height: 200px;
+}
+#plus
+{
+   font-size: 40px;
+   position:relative;
+   right: 38px;
+   top:46px ;
+   color: red;
+}
+#WCCON
+{
+    position: relative;
+}
+#officeimg
+{
+    width: 100%;
+    height: auto;
+    }
+#bluebox
+{
+    width: 850px;
+    height: 251px;
+    background-color:lightskyblue;
+    opacity: 0.5;
+
+} 
+#redbox
+{
+    height: 251px;
+    background-color:red;
+    opacity: 0.3;
+}
+#grebox1
+{
+height: 251px;
+width: 500px;
+    background-color: black;
+    opacity: 0.5;
+}
+#grebox2 {
+    height: 251px;
+    background-color: black;
+    opacity: 0.5;
+}
+.trasdiv
+{
+    position: relative;
+    bottom: 755px;
+}
+@media only screen and (min-width: 768px)
+{
+    .col-sm-3
+    {
+        height: 200px;        
+    }
+    #plus
+    {
+    
+    }
+
+}
+@media only screen and (min-width: 320px)
+{
+#plus
+{
+        right: 38px;
+        top: 46px;
+}
+}
