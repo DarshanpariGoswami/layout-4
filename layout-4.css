@@ -83,15 +83,19 @@ width: 500px;
 {
     width: 15%
 }
-#blackvline 
-{
-     background-color: black;
-    width: 5px;
-    height: 50px;
-}
 .lastdiv
 {
     column-count: 3;
+}
+#footerbox
+{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+.footerdiv
+{
+    column-count: 4;
 }
 @media only screen and (min-width: 768px)
 {
