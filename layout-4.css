@@ -24,11 +24,12 @@
 {
     position: relative;
 }
-#middlediv
-{background-image:url("C:/internship/ofiicemeeting.jpg");
-    width: 100px;
+#officeimg
+{   width: 100%;
     height: auto;
-    }
+    background-color: darkblue;
+    
+}
 #bluebox
 {
     
@@ -65,11 +66,33 @@ width: 500px;
     background-color: black;
     opacity: 0.5;
 }
-/*.trasdiv
+.trasdiv
 {
     position: relative;
-    bottom: 755px;
-}*/
+    bottom: 1px;
+}
+#aboutpara
+{
+    padding-left: 300px;
+}
+#commentimg
+{
+    width:15%
+}
+#fileimg
+{
+    width: 15%
+}
+#blackvline 
+{
+     background-color: black;
+    width: 5px;
+    height: 50px;
+}
+.lastdiv
+{
+    column-count: 3;
+}
 @media only screen and (min-width: 768px)
 {
     .col-sm-3
@@ -85,5 +108,6 @@ width: 500px;
                 right: 38px;
                 top: 46px;
         }
+
         
 }
